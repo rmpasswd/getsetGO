@@ -3,15 +3,21 @@ package main
 import "fmt"
 
 func main(){
-//	var name string = "Mahin"
-	var letter2u rune
-	letter2u = 'Q'
-//	var age int = 22
-	var IsFound bool
-	fmt.Println(IsFound, letter2u )
+	var students [3]string;		// conventional way
+	students[0] = "MA"
+	students[1] = "TA"
+	students[2] = "QA"
+	
+	fmt.Println(len(students))
+	fmt.Println(students[2])
+	
+	teachers := [3]string{"YS", "df"}	// shorthand, string literals 
+	teachers[1] = "MAD"
+	teachers[2] = "JA"
+	fmt.Println(teachers)
+	// or use teachers := [...]string{"YS", "df"}
 
-var chr rune
-chr = 'র'
-fmt.Println(chr)
-fmt.Printf("%c", chr)
+
+		////////////SLICE///////////
+		
 }
