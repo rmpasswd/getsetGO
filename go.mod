@@ -1,4 +1,4 @@
-module github.com/anthdm/gobank
+module github.com/rmpasswd/getsetGO
 
 go 1.18
 
